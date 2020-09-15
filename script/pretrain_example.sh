@@ -1,0 +1,2 @@
+python3 -m torch.distributed.launch --nnodes 1 --node_rank 0 --nproc_per_node 4 run_pregen_train.py \
+        --pregenerated_data 'prepared_data/' --epochs 20 --bert_model 'bert/' --output_dir './output/' --world_size 4

@@ -1,0 +1,1 @@
+python pregenerate_training_data.py --train_corpus 'data/NIKL_corpus.txt' --output_dir 'prepared_data' --bert_model 'bert/'
